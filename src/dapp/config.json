@@ -1,0 +1,7 @@
+{
+	"localhost": {
+		"url": "ws://localhost:8545",
+		"dataAddress": "0x51608A9e84dBd552de0a12B2471F46b62eFE277F",
+		"appAddress": "0x7B5915Fe3F12D9B9f4d95E982B9C94eF3AaAecaA"
+	}
+}

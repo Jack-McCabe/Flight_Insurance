@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <main class="container">
+
+        <div id="display-wrapper" class="top-20">
+        </div>
+
+        <div class="row top-20">
+            <label class="form">Register Airline [Airline Address | Guarantor]</label>
+            <input type="text" id="airline">
+            <input type="text" id="guarantor">
+            <button class="btn btn-primary" id="submit-airline">Register Airline</button>
+        </div>
+
+        <div class="row top-20">
+            <label class="form">Fund Airline [Value | Address]</label>
+            <input type="text" id="airlinefunding">
+            <input type="text" id="airlinevalue">
+            <button class="btn btn-primary" id="fund-airline">Fund Airline</button>
+        </div>
+
+               
+      
+        <div class="row top-20">
+            <label class="form">Confirm Active Airline [Airline Address]</label>
+            <input type="text" id="activeAirline">
+            <button class="btn btn-primary" id="fetch-airlines">Confirm</button>
+        </div>
+
+        <br>
+        <br>
+        
+        <div class="row top-20">
+            <label class="form">Register Flight [Flight Number | Departure City | Departure Time | Airline]</label>
+            <br>
+            <input type="text" id="flight-number">
+            <input type="text" id="flight-city">
+            <input type="text" id="flight-time">
+            <input type="text" id="airlineValue">
+            <button class="btn btn-primary" id="submit-flight">Register Flight</button>
+        </div>
+
+
+    
+        <div class="row top-20">
+            <label class="form">Buy Insurance [Flight Number | Passenger] </label>
+            <input type="text" id="insurFlightNum">
+            <input type="text" id="insurPassenger">
+            <button class="btn btn-primary" id="buy-insurance">Buy Insurance</button>
+        </div>
+
+     
+
+       
+
+   
+
+        <br>
+        <br>
+
+        <div class="row top-20">
+            <label class="form">Fetch Flight Status [Airline|Flight #|Departure City|Timestamp]</label>
+            <input type="text" id="arln">
+            <input type="text" id="flgt">
+            <input type="text" id="flightCity">
+            <input type="text" id="tmstmp">
+            <button class="btn btn-primary" id="fetch-oracle-response">Request Response</button>
+        </div>
+
+        <br>
+
+        <div class="row top-20">
+            <label class="form">Insurance Payout [Amount | Passenger]</label>
+            <input type="text" id="moneyOwed">
+            <input type="text" id="passenger">
+            <button class="btn btn-primary" id="insurance-payout">Insurance Payout</button>
+        </div>
+
+
+        
+<!-- 
+        <div class="row top-20">
+            <label class="form">Buy Insuranc</label> 
+            <button class="btn btn-primary" id="buy-insurance">Buy Insurance</button>
+        </div>
+        -->
+
+    </main>
+
+    <!--   <script src="src/server/index.js"></script>         
+  
+   <script src="src/server/server.js"></script>  -->
+
+    <!--   <script src="/Users/jack.mccabe/Desktop/devApps/flightSuretyProject/Cleantry3/FlightSurety-master/src/server/server.js"></script> -->
+   <!--   <script src=" FlightSurety-master/src/server/server.js"></script> -->
+
+</body>
+
+</html>
